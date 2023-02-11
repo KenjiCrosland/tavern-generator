@@ -1,0 +1,92 @@
+{
+  "simple": {
+    "generalDescriptions": [
+      {
+        "template": "The {{typeOfInn}} is {{adjective}} {{detail1}} {{detail2}}",
+        "typeOfInn": ["inn", "tavern", "lodge"],
+        "adjective": ["charming", "quaint", "old-fashioned"],
+        "detail1": [
+          "and cozy",
+          "with a warm atmosphere",
+          "that welcomes you"
+        ],
+        "detail2": [
+          "with open arms.",
+          "like an old friend.",
+          "with a smile."
+        ]
+      }
+    ],
+    "atmosphericDetails": [
+      {
+        "template": "{{atmosphere1}} {{atmosphere2}} {{atmosphere3}} {{atmosphere4}}",
+        "atmosphere1": [
+          "The scent of",
+          "The sound of",
+          "The warmth of"
+        ],
+        "atmosphere2": [
+          "roasting meat",
+          "sizzling oil",
+          "smoldering wood"
+        ],
+        "atmosphere3": [
+          "mingles with",
+          "combines with",
+          "intermingles with"
+        ],
+        "atmosphere4": [
+          "the soft glow of candlelight.",
+          "the cheerful chatter of guests.",
+          "the hum of the hearth."
+        ]
+      }
+    ]
+  },
+  "rich": {
+    "generalDescriptions": [
+      {
+        "template": "The {{typeOfInn}} is {{simpleAdjective}} {{detail1}} {{detail2}}",
+        "typeOfInn": ["inn", "tavern", "lodge"],
+        "simpleAdjective": [
+          "a luxurious",
+          "an opulent",
+          "an elegant"
+        ],
+        "detail1": [
+          "with plush furnishings",
+          "that exudes sophistication",
+          "with the finest amenities"
+        ],
+        "detail2": [
+          "fit for a king.",
+          "to meet all your needs.",
+          "and pamper you like royalty."
+        ]
+      }
+    ],
+    "atmosphericDetails": [{
+      "template": "{{atmosphere1}} {{atmosphere2}} {{atmosphere3}} {{atmosphere4}}",
+      "atmosphere1": [
+        "The gentle breeze of",
+        "The soft rustle of",
+        "The soothing sound of"
+      ],
+      "atmosphere2": [
+        "wind chimes",
+        "leaves in the trees",
+        "babbling brooks"
+      ],
+      "atmosphere3": [
+        "wafts through",
+        "flows through",
+        "drifts through"
+      ],
+      "atmosphere4": [
+        "the open windows.",
+        "the tranquil garden.",
+        "the peaceful night."
+      ]
+    }]
+  }
+}
